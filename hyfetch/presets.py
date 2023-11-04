@@ -165,6 +165,32 @@ class ColorProfile:
 
 
 PRESETS: dict[str, ColorProfile] = {
+    'map': ColorProfile(ColorProfile([
+        '#5A9ED0',
+        '#9CD1DD',
+        '#F2F291',
+        '#FFFFFF',
+        '#F2F291',
+        '#FDB6C3',
+        '#CA5B7C',
+    ]).with_weights([1, 1, 1, 2, 1, 1, 1])),
+
+    'aam': ColorProfile([
+        '#55013D',
+        '#EE648D',
+        '#BCB7CA',
+        '#004DB5',
+        '#262C6C',
+    ]),
+
+    'transage': ColorProfile([
+        '#FCA254',
+        '#FFF68C',
+        '#FFFFFF',
+        '#F39EF3',
+        '#CB68FF',
+    ]),
+
     'rainbow': ColorProfile([
         '#E50000',
         '#FF8D00',
