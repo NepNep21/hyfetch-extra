@@ -650,6 +650,156 @@ PRESETS: dict[str, ColorProfile] = {
 	"#F3EDBD",
     ]),
 
+    # Start of Extras by Jaida Corvera
+    # polyamorous flag colors pulled from https://polyamproud.com/flag
+    'polyam' : ColorProfile([
+        "#FFFFFF",
+        "#FCBF00",
+        "#009FE3",
+        "#E50051",
+        "#340C46",
+    ]),
+
+    'sapphic' : ColorProfile([
+        "#FD8BA8",
+        "#FBF2FF",
+        "#C76BC5",
+        "#FDD768",
+	"#C76BC5",
+	"#FBF2FF",
+	"#FD8BA8"
+    ]),
+
+    'androgyne' : ColorProfile([
+        "#FE007F",
+        "#9832FF",
+        "#00B8E7",
+    ]),
+
+    "genderflux" : ColorProfile([
+        "#F57694",
+        "#F2A3B9",
+        "#CFCFCF",
+        "#7BE1F5",
+        "#3ECDFA",
+        "#FFF48C",
+    ]),
+
+    'interprogress' : ColorProfile([
+        "#FFD800",
+        "#7902AA",
+        "#FFFFFF",
+        "#FFAFC8",
+        "#74D7EE",
+        "#613915",
+        "#000000",
+        '#E50000',
+        '#FF8D00',
+        '#FFEE00',
+        '#028121',
+        '#004CFF',
+        '#770088'
+    ]),
+
+    'progress' : ColorProfile ([
+        "#FFFFFF",
+        "#FFAFC8",
+        "#74D7EE",
+        "#613915",
+        "#000000",
+        '#E50000',
+        '#FF8D00',
+        '#FFEE00',
+        '#028121',
+        '#004CFF',
+        '#770088'
+    ]),
+
+    'intersex' : ColorProfile([
+        "#FFD800",
+        "#FFD800",
+        "#7902AA",
+        "#FFD800",
+        "#FFD800"
+    ]),
+
+    'old-polyam' : ColorProfile([
+        "#0000FF",
+        "#FF0000",
+        "#FFFF00",
+        "#FF0000",
+        "#000000"
+    ]),
+
+    'equal-rights' : ColorProfile([
+        "#0000FF",
+        "#0000FF",
+        "#FFFF00",
+        "#0000FF",
+        "#0000FF",
+        "#FFFF00",
+        "#0000FF",
+        "#0000FF"
+    ]),
+
+    'drag' : ColorProfile([
+        "#CC67FF",
+        "#FFFFFF",
+        "#FFA3E3",
+        "#FFFFFF",
+        "#3366FF"
+    ]),
+
+    # Pronoun Flags
+
+    'pronounfluid' : ColorProfile([
+        "#ffb3f9",
+        "#ffffff",
+        "#d1fdcb",
+        "#c7b0ff",
+        "#000000",
+        "#b8ccff"
+    ]),
+
+    'pronounflux' : ColorProfile([
+        "#fdb3f8",
+        "#b6ccfa",
+        "#18ddd3",
+        "#64ff89",
+        "#ff7690",
+        "#ffffff"
+    ]),
+
+    'exipronoun' : ColorProfile([
+        "#1c3d34",
+        "#ffffff",
+        "#321848",
+        "#000000"
+    ]),
+
+    'neopronoun' : ColorProfile ([
+        "#bcec64",
+        "#ffffff",
+        "#38077a"
+    ]),
+
+    'neofluid' : ColorProfile ([
+        "#ffeca0",
+        "#ffffff",
+        "#ffeca0",
+        "#38087a",
+        "#bcec64"
+    ]),
+
+    'genderqueer' : ColorProfile ([
+        "#b57edc",
+        "#b57edc",
+        "#ffffff",
+        "#ffffff",
+        "#4a8123",
+        "#4a8123"
+    ]),
+
     # Meme flags
     'beiyang': ColorProfile([
         '#DF1B12',
