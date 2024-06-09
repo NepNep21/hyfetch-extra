@@ -14,11 +14,6 @@ md5sums=('SKIP')
 provides=('hyfetch')
 conflicts=('hyfetch' 'hyfetch-git')
 
-prepare() {
-  cd "$pkgname"
-  git checkout extra
-}
-
 pkgver() {
   cd "$pkgname"
   git describe --long --tags | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
